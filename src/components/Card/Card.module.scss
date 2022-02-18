@@ -1,0 +1,31 @@
+.card{
+	padding:30px;
+	width:17%;
+	border: 1px solid #F3F3F3;
+	border-radius: 40px;
+	position:relative;
+	transition:box-shadow 0.2s ease-in-out,transform 0.2s ease-in-out;
+	cursor: pointer;
+	&:hover{
+		box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+		transform: translateY(-5px);
+	}
+	.favorite{
+		position:absolute;
+		cursor: pointer;
+
+	}
+	h5{
+		margin-bottom: 5px;
+	}
+	.cost{
+		display:flex;
+		flex-direction: column;
+	}
+	.button{
+		padding:10px;
+		background: #FFFFFF;
+border: 1px solid #F2F2F2;
+border-radius: 8px;
+	}
+}

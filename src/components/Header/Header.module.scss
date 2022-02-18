@@ -1,0 +1,23 @@
+header{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:45px;
+	border-bottom: 1px solid #EAEAEA;
+	.headerLeft{
+		display: flex;
+		align-items: center;
+		
+	}
+	.headerRight{
+		display: flex;
+		list-style: none;
+		li{
+			margin:0 30px;
+			cursor: pointer;
+		}
+		span{
+			margin-left: 10px;
+		}
+	}
+}
